@@ -1,0 +1,14 @@
+{
+  "name": "azcender-artifactory_staging",
+  "version": "0.1.0",
+  "author": "azcender",
+  "summary": "Utility modules to work with Artifactory.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/azcender/artifactory_staging",
+  "project_page": "https://github.com/azcender/artifactory_staging",
+  "issues_url": "https://github.com/azcender/artifactory_staging/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
