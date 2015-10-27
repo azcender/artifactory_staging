@@ -58,7 +58,6 @@ define artifactory_staging::deploy (
 
   ::wget::fetch { $artifactory_url:
     destination => $staging,
-    execuser    => 'tomcat',
     unless      => $_unless,
   }
 
